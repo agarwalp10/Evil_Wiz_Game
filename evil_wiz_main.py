@@ -48,7 +48,7 @@ def battle(player, wizard):
         elif choice == '2':
             player.special_ability(wizard)
         elif choice == '3':
-            player.health() 
+            player.heal() 
         elif choice == '4':
             player.display_stats() 
         else:
